@@ -1,0 +1,38 @@
+.quadro{
+    background-color: rgba(255, 255, 255, 10%);
+}
+
+input[type="number"]{
+    border: 0px;
+    background-color: rgba(255, 255, 255, 25%);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    width: 220px;
+    height: 27px;
+}
+
+input[type="submit"], .reset{
+    border: 0px !important;
+    background-color: rgba(255, 255, 255, 30%) !important;
+    transition-duration: 1s !important;
+}
+
+input[type="submit"]:hover, .reset:hover{
+    border: 1px solid white !important;
+    padding: 7px 12px !important;
+    color: yellow !important;
+}
+
+label{
+    font-size: 11px;
+}
+
+.resultado{
+    font-size: 30px;
+}
+
+.reset{
+    font-size: 16px;
+    color: white;
+}
